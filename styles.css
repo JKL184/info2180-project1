@@ -24,30 +24,30 @@ header .container {
 	font-size: 18px;
 	padding: 15px;
 	display: flex;
-    grid-row: 1;
-    justify-content: space-between;
+	grid-row: 1;
+	justify-content: space-between;
 }
 header .container ul {
 	list-style: none;
-    overflow: hidden;
-    padding-top: 20px;
+	overflow: hidden;
+	padding-top: 20px;
 }
 
 header .container li {
-    display: inline;
-    margin: 5px;
-} 
-header .container li a{
-        color: #6b7280;
-        text-decoration: none;
+	display: inline;
+	margin: 5px;
+}
+header .container li a {
+	color: #6b7280;
+	text-decoration: none;
 }
 header .container li a:hover {
 	color: #5a67d8;
 }
 .overview-hero {
 	background-color: #e2e8f0;
-    grid-row: 2;
-    margin-bottom: 10px;
+	grid-row: 2;
+	margin-bottom: 10px;
 }
 .overview-hero .container {
 	display: flex;
@@ -85,40 +85,36 @@ header .container li a:hover {
 	grid-row: 4;
 	padding: 10px;
 	padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 20px;
-	
-	
+	padding-bottom: 50px;
+	margin-top: 20px;
 }
-.testing .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
+.testing .container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
-.testing .container .texting-description{
-    text-align: left;
+.testing .container .texting-description {
+	text-align: left;
 }
 .testing .container .btn {
-    display: flex;
+	display: flex;
 	background-color: #48bb78;
 	border-radius: 5px;
 	float: right;
 	grid-column: 2;
-    text-decoration: none;
-    text-align: center;
-    margin-left:20px;
-    margin-top: 50px;
-    padding: 5px;
-    width:100px;
-    
+	text-decoration: none;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding: 5px;
+	width: 100px;
 }
 
 .stories .container {
 	display: grid;
 	grid-row: 5;
-    padding: 100px;
-    grid gap: 10px;
+	padding: 100px;
+	grid-gap: 10px;
 }
 .stories .container article {
 	display: flex;
@@ -135,33 +131,31 @@ header .container li a:hover {
 
 .stories .container img {
 	height: 210px;
-    border-radius: 50%;
-    padding: 15px;
+	border-radius: 50%;
+	padding: 15px;
 }
 
 .newsletter {
 	background-color: #48bb78;
 	color: white;
 	grid-row: 6;
-    padding: 50px;
-    text-align: center;
-      
+	padding: 50px;
+	text-align: center;
 }
 
 .newsletter .container form {
 	justify-content: center;
 	display: flex;
 }
-.newsletter .container form input{
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-
+.newsletter .container form input {
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
 }
 .newsletter .container .btn {
 	background-color: #5a67d8;
-    margin-left: 10px;
-    padding: 15px;
+	margin-left: 10px;
+	padding: 15px;
 }
 
 footer {
